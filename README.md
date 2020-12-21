@@ -1,6 +1,6 @@
-# Ta-
-自己需要的
-cron“ 5 6-18 / 6 * * *”脚本路径= https：//raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_fruit.js，tag=东东农场
+＃JD
+
+cron“ 5 6-18 / 6 * * *”脚本路径= https：// raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_fruit.js，tag=东东农场
 cron "10 * * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_jdfactory.js,tag=东东工厂
 cron "10 9 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_watch.js,tag=京东看一看
 cron "10 8 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_jdh.js,tag=京东健康
