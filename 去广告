@@ -1,4 +1,4 @@
-hostname = api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,i.com,api.m.jd.com,trade-acs.m.taobao.com,mp.weixin.qq.com,ios.fuliapps.com,apple.fuliapps.com,ios.xiangjiaoapps.com,apple.xiangjiaoapps.com,*.xiangxiangapps.com,*.xxjjappss.com,*.huaerdadi.com,ap*.intsig.net,account.wps.cn,
+hostname = api.weibo.cn,mapi.weibo.com,*.uve.weibo.com,i.com,api.m.jd.com,trade-acs.m.taobao.com,mp.weixin.qq.com,ios.fuliapps.com,apple.fuliapps.com,ios.xiangjiaoapps.com,apple.xiangjiaoapps.com,*.xiangxiangapps.com,*.xxjjappss.com,*.huaerdadi.com,ap*.intsig.net,account.wps.cn,api.zhihu.com,*.googlevideo.com
 http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/jd_price.js, tag=京东比价(内置版)
 http-request ^http://.+/amdc/mobileDispatch requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js, tag=淘宝比价1(内置版)
 http-response ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail requires-body=1,script-path=https://raw.githubusercontent.com/yichahucha/surge/master/tb_price.js, tag=淘宝比价2(内置版)
@@ -9,3 +9,5 @@ http-response ^https?:\/\/.*\.(lago|fuli|xiang(jiao|xiang))apps\.com\/(ucp\/inde
 http-response https:\/\/.*\..*\.com\/(ssp-svr\/ssp\/list3|ucp/index) requires-body=1,max-size=0,script-path= https://raw.githubusercontent.com/ddgksf2013/Cuttlefish/master/Crack/xxys.js, tag=小小影视
 http-response https:\/\/(api|api-cs)\.intsig\.net\/purchase\/cs\/query_property\? requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/CamScanner.js, tag=扫描全能王
 http-response ^https://account.wps.*/api/users/ requires-body=1,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/Wps.js, tag=WPS
+https://raw.githubusercontent.com/ziye12/Scripts-1/master/Script/ZhiHu_All.js, tag=知乎
+https://raw.githubusercontent.com/ziye12/Scripts-1/master/Script/YouTube.js, tag=YouTube
