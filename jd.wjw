@@ -1,8 +1,8 @@
 cron "10 * * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_jdfactory.js,tag=东东工厂
 cron "10 8 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_jdh.js,tag=京东健康
-cron "0 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_blueCoin.js,tag=京小超兑换奖品
+cron "0 0 * * *" script-path=https://raw.githubusercontent.com/959wjw/jiaoben/main/jd_blueCoin.js,tag=京小超兑换奖品
 cron "0 9 * * *" script-path=https://raw.githubusercontent.com/whyour/hundun/master/quanx/jdzz.js, tag=京东赚赚
-cron "5 0 * * *" tag=京东多合一签到, script-path=https://raw.githubusercontent.com/NobyDa/Script/master/JD-DailyBonus/JD_DailyBonus.js
+cron "5 0 * * *" tag=京东多合一签到, script-path=https://raw.githubusercontent.com/959wjw/jiaoben/main/jd_bean_sign.js
 cron "1 7-21/2 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_plantBean.js, tag=京东种豆得豆
 cron "15 */2 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy.js, tag=宠汪汪
 cron "12 */1 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_joy_feedPets.js, tag=宠汪汪喂食
@@ -20,11 +20,11 @@ cron "0 12 */3 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_s
 cron "12 * * * *" script-path= https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_pigPet.js, tag=金融养猪
 cron "1 1 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_redPacket.js, tag=京东全民开红包
 cron "0 19 * * *" script-path=https://raw.githubusercontent.com/yangtingxiao/QuantumultX/master/scripts/jd/jd_baiTiao.js, tag=京东白条
-cron "2 9 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_bean_change.js, tag=京豆变动通知
+cron "2 9 * * *" script-path=https://raw.githubusercontent.com/959wjw/jiaoben/main/jd_bean_change.js, tag=京豆变动通知
 cron "10 0,20 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_necklace.js,tag=京东点点券
 cron "0 * * * *" script-path= https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_dreamFactory.js, tag=京喜工厂
 cron "16 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_small_home.js, tag=东东小窝
-cron "10 7 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_bean_home.js, tag=领京豆额外奖励
+cron "10 7 * * *" script-path=https://raw.githubusercontent.com/959wjw/jiaoben/main/jd_bean_home.js, tag=领京豆额外奖励
 cron "10 7 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_car.js, tag=京东汽车
 cron "10 0 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_health.js,tag=健康抽奖机
 cron "5 8 * * *" script-path=https://raw.githubusercontent.com/iisams/Scripts/master/liwo/jdtqz.js, tag= 京东特权值
@@ -36,4 +36,4 @@ cron "15 6-18/6 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_
 cron "55 23 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_unbind.js, tag=注销京东会员卡
 cron "10-20/5 12 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_live.js,tag=京东直播
 cron "10 7 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_crazy_joy.js, tag=crazyJoy任务
-cron "1 8,12,18 * * *" script-path=https://raw.githubusercontent.com/lxk0301/jd_scripts/master/jd_bookshop.js,tag=口袋书店
+cron "1 8,12,18 * * *" script-path=https://raw.githubusercontent.com/959wjw/jiaoben/main/jd_bookshop.js,tag=口袋书店
